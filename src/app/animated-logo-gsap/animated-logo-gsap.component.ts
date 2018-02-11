@@ -1,4 +1,5 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from "@angular/core";
+import {Cubic, TweenMax} from "gsap";
 
 @Component({
   selector: 'app-animated-logo-gsap',
